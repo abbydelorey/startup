@@ -9,6 +9,10 @@ Starbucks is one of the largest food chains in the nation. While they may all se
 ![Uploading 4F899909-DA6E-498F-B997-8FF2E1719D74_1_102_o.jpeg…]()
 ![Uploading 4F899909-DA6E-498F-B997-8FF2E1719D74_1_102_o.jpeg…]()
 
+![main menue](https://share.icloud.com/photos/06fM04Utl_LxLIDd6gAxU3xzQ)
+![location finding](https://share.icloud.com/photos/0aeckaKsLe3WUUZsN9oU7Omdg)
+![rating page](https://share.icloud.com/photos/010_n1LSn4XlMgMbYcfVOIznA)
+
 KEY FEATURES:
 
 - can log in securely over https
