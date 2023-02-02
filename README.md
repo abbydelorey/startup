@@ -24,3 +24,5 @@ KEY FEATURES:
 
 http://3.140.205.19
 ssh -i ~/Downloads/production.pem ubuntu@3.140.205.19
+
+ratemystarbucks.link
