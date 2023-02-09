@@ -26,3 +26,7 @@ http://3.140.205.19
 ssh -i ~/Downloads/production.pem ubuntu@3.140.205.19
 
 ratemystarbucks.link
+
+simon:
+for some reason i cant actually play the game? I can click the buttons and type my name in but thats it. I think its interesting how vscode auto puts a closing <> when you type the opening <>. makes it so i dont have to remember to do it :) 
+https://simon.ratemystarbucks.link
