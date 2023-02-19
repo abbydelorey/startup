@@ -30,3 +30,13 @@ ratemystarbucks.link
 simon:
 for some reason i cant actually play the game? I can click the buttons and type my name in but thats it. I think its interesting how vscode auto puts a closing <> when you type the opening <>. makes it so i dont have to remember to do it :) 
 https://simon.ratemystarbucks.link
+
+simon-css:
+you MUST include links to bootstrap in all your html files if you want to utilize it. ex code:  <!-- Include bootstrap CSS framework -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+buttons have types and classes (preset styles)
