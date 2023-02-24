@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Main Menu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 4px;
+  text-align: center;
+  background: #F8C8DC;
+  color: white;
+}
+
+.header h1 {
+  font-size: 30px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #C8A2C8;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #67009a;
+  color: white;
+}
+
+.navbar a.active {
+  background-color: #a476ff;
+  color: white;
+}
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 45%; /* IE10 */
+  flex: 45%;
+  font-size: 20px;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.main {   
+  -ms-flex: 55%; /* IE10 */
+  flex: 55%;
+  background-color: white;
+  padding: 40px;
+}
+
+.fakeimg {
+  background-color: #F8C8DC;
+  width: 60%;
+  padding: 30px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: left;
+  background: #F8C8DC;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Rate My Starbucks</h1>
+  <p>A drink is just a <b>review</b> away!</p>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="location.html">Location map</a>
+  <a href="rate.html">Rate Here</a>
+  <a href="login.html" class="right">Log in</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Starbucks History</h2>
+    <div class="drinks" style="height:200px;"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTJyeyg6asn7ajNXbiBBVi_iroMqbKiMNb0A&usqp=CAU" alt="drinks"></div>
+    <p>Starbucks originally started in 1971 by Jerry Balswin, Gordon Bowker, and Zev Siegl, with it's first shop located in Seattle's historic Pike Place Market. From this location, Starbucks sold high-quality whole coffee beans, dark-roasted in small batches, the European way. </p>
+    <p> Along with selling high quality coffee beans, Starbucks offers a variety of speciality coffee drinks, teas, hot chocolate, merchandise and a limited menu selection of food items. Their stores offer a clean, relaxing atmosphere with free wifi for customers.</p>
+  </div>
+  <div class="main">
+    <h2>Trending Places</h2>
+    <h5>as of February 2023</h5>
+    <div class="fakeimg" style="height:200px;"><h1>Provo UT</h1> <br> overall: 4.9 </div>
+    <br>
+    <div class="fakeimg" style="height:200px;"><h1>Seattle WA</h1> <br> overall: 5 </div>
+    <br>
+    <div class="fakeimg" style="height:200px;"><h1>New York City NY</h1> <br> overall: 4.8 </div>
+    <br>
+  </div>
+</div>
+
+<div class="footer">
+  <span class="text-reset"> made by abby delorey</span>
+  <a class="text-reset" href="https://github.com/abbydelorey/startup">source</a>
+</div>
+</body>
+</html>
