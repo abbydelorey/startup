@@ -35,3 +35,10 @@ startup-css:
 
 linking pages: <a href="#"> name </a>
 
+simon-javascript:
+  adding javascript to html:
+      <!-- Script is located at the bottom because it references HTML elements during initialization -->
+    <script src="play.js"></script>
+  </body>
+  can be added to top or bottom of body
+
