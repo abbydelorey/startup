@@ -2,7 +2,7 @@
 const searchInput = document.getElementById("searchInput");
 
 // store name elements in array-like object
-const namesFromDOM = document.getElementsByClassName("name");
+const namesFromDOM = document.getElementsByClassName("location");
 
 // listen for user events
 searchInput.addEventListener("keyup", (event) => {
