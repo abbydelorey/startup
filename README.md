@@ -26,7 +26,7 @@ simon: for some reason i cant actually play the game? I can click the buttons an
 
 simon-css: you MUST include links to bootstrap in all your html files if you want to utilize it. ex code: buttons have types and classes (preset styles)
 
-startup-css: 
+#startup-css: 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="main.css">
@@ -35,12 +35,24 @@ startup-css:
 
 linking pages: <a href="#"> name </a>
 
-simon-javascript:
+#simon-javascript:
   adding javascript to html:
       <!-- Script is located at the bottom because it references HTML elements during initialization -->
     <script src="play.js"></script>
   </body>
   can be added to top or bottom of body
+  
+ #startup-javascript
+ localStorage.whatever <- puts in users computer storage
+ document.querySelector(#) <- looks for first item in document with that thing
+ window.location.reload() <- reloads window, call after filling out form
+  
+  
+  
+  
+  
+  
+#stuff for midterm
   
 
 Positioning Functions
