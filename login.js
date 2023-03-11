@@ -6,7 +6,7 @@ function login() {
   }
   
 
-const accountName = document.querySelector('.user-name');
+const accountName = document.querySelector('.form');
 accountName.textContent = this.accessAccountName();
 
 function accessAccountName() {
